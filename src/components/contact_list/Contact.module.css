@@ -1,0 +1,26 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.contact-info p {
+  margin: 5px 5px;
+}
+.contact-info div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.contact-delete-btn {
+  height: 40px;
+  background-color: gainsboro;
+  border: 1px solid grey;
+}
